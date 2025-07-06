@@ -1,7 +1,7 @@
 {
-  "Intros": [
-    "Your Quote of the day is: ",
-    "The Word of the day is: ",
+  "intros": [
+    "Your Quote of the day is!: ",
+    "The Word of the day is!: ",
     "Todays bar is: "
   ], 
   "quotes": [
