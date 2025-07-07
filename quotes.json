@@ -3,7 +3,8 @@
     "Your Quote of the day is!: ",
     "The Word of the day is!: ",
     "Todays bar is: "
-  ], 
+  ],
+
   "quotes": [
    "Knowing yourself is the beginning of all wisdom. — Aristotle",
     "What is a friend? A single soul dwelling in two bodies. — Aristotle",
@@ -21,6 +22,7 @@
     "Be slow to fall into friendship, but when you are in, continue firm and constant. — Socrates",
     "Let him who would move the world first move himself. — Socrates"
   ],
+
   "prompts": [
     "How might this wisdom apply to a current challenge in your life?",
     "Consider a past experience that either validates or contradicts this perspective.",
