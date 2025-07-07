@@ -21,6 +21,6 @@ export function getWisdom() {
       intro,
       quote,
       prompt,
-      asString: `${intro}\n“${quote}”\n${prompt}`
+      asString: `${intro}\n\n“${quote}”\n\n${prompt}`
     };
   }
