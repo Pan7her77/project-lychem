@@ -13,16 +13,14 @@ function randomOf(arr) {
 }
 
 export function getWisdom() {
-    const intro = Array.isArray(data.intros) && data.intros.length > 0 ? randomOf(data.intros) : 'No intro available';
-    const quote = Array.isArray(data.quotes) && data.quotes.length > 0 ? randomOf(data.quotes) : 'No quote available';
-    const prompt = Array.isArray(data.prompts) && data.prompts.length > 0 ? randomOf(data.prompts) : 'No prompt available';
+    const intro = Array.isArray(data.intros) && data.intros.length > 0 ? randomOf(data.intros)  : 'No intro available'; 
+    const quote = Array.isArray(data.quotes) && data.quotes.length > 0 ? randomOf(data.quotes) : 'No quote available'; 
+    const prompt = Array.isArray(data.prompts) && data.prompts.length > 0 ? randomOf(data.prompts) : 'No prompt available'; 
   
     return {
       intro,
       quote,
       prompt,
-      asString: `${intro}\n\n“${quote}”\n\n${prompt}`
+      asString: `${intro}\n“${quote}”\n${prompt}`
     };
   }
-
-  console.log(data);
